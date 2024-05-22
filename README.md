@@ -1,4 +1,6 @@
 # Vim-Light
+
+### 整体环境
 ```
 git clone https://github.com/HEUfcy/Vim-Light.git
 cd Vim-Light
