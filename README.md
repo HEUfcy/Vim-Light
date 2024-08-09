@@ -14,8 +14,8 @@ pip install xformers==0.0.23
 
 ### xformers对应环境
 ```
-xformers	pytorch
-0.0.26.post1	 torch==2.3.0
+xformers	 pytorch
+0.0.26.post1  torch==2.3.0
 0.0.25	       torch==2.2.1
 0.0.24	       torch==2.2.0
 0.0.23	       torch==2.1.1
