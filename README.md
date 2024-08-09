@@ -27,6 +27,10 @@ xformers	 pytorch
 0.0.17	       torch==2.0.0
 0.0.16	       torch==1.13.1
 ```
+### 安装deepspeed
+```
+pip install https://github.com/melMass/DeepSpeed/releases/download/v0.12.7/deepspeed-0.12.7+40342055-py3-none-any.whl
+```
 
 ### 先安装causal_sonvld-1.1.3
 ```
