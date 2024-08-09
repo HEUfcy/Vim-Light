@@ -29,7 +29,10 @@ xformers	 pytorch
 ```
 ### 安装deepspeed
 ```
-pip install https://github.com/melMass/DeepSpeed/releases/download/v0.12.7/deepspeed-0.12.7+40342055-py3-none-any.whl
+pip install deepspeed
+# 当安装报错：FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/cuda-11.7/bin/nvcc'时
+先运行：export CUDA_HOME=/usr/local/cuda
+# 参考：https://blog.csdn.net/BetrayFree/article/details/132598503
 ```
 
 ### 先安装causal_sonvld-1.1.3
