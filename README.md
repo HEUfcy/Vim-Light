@@ -12,7 +12,7 @@ pip3 install torch==2.1.1+cu118 torchvision==0.16.1+cu118 torchaudio==2.1.1+cu11
 pip install xformers==0.0.23
 ```
 
-### xformers对应环境
+### xformers对应torch版本
 ```
 xformers	 pytorch
 0.0.26.post1  torch==2.3.0
