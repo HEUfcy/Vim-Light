@@ -1,6 +1,6 @@
 # Vim-Light
 
-### 整体环境
+## 通用环境配置
 ```
 git clone https://github.com/HEUfcy/Vim-Light.git
 cd Vim-Light
@@ -13,6 +13,7 @@ conda install cudatoolkit=11.8 # 适合pytorch: 2.0.0，2.0.1，2.1.0，2.1.1，
 pip install xformers==0.0.23
 ```
 
+## Vision Mamba环境配置
 ### 安装包下载到本地再上传
 ```
 wget https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.1.3.post1/causal_conv1d-1.1.3.post1+cu118torch2.1cxx11abiFALSE-cp310-cp310-linux_x86_64.whl
