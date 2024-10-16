@@ -13,15 +13,6 @@ conda install cudatoolkit=11.8 # 适合pytorch: 2.0.0，2.0.1，2.1.0，2.1.1，
 pip install xformers==0.0.23
 ```
 
-## Vision Mamba环境配置
-### 安装包下载到本地再上传
-```
-wget https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.1.3.post1/causal_conv1d-1.1.3.post1+cu118torch2.1cxx11abiFALSE-cp310-cp310-linux_x86_64.whl
-wget https://github.com/state-spaces/mamba/releases/download/v1.1.1/mamba_ssm-1.1.1+cu118torch2.1cxx11abiFALSE-cp310-cp310-linux_x86_64.whl
-pip install causal_conv1d-1.1.3.post1+cu118torch2.1cxx11abiFALSE-cp310-cp310-linux_x86_64.whl 
-pip install mamba_ssm-1.1.1+cu118torch2.1cxx11abiFALSE-cp310-cp310-linux_x86_64.whl
-```
-
 ### xformers对应torch版本
 ```
 xformers	 pytorch
@@ -43,6 +34,16 @@ pip install deepspeed
 # 当安装报错：FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/cuda-11.7/bin/nvcc'时
 先运行：export CUDA_HOME=/usr/local/cuda
 # 参考：https://blog.csdn.net/BetrayFree/article/details/132598503
+```
+
+
+## Vision Mamba环境配置
+### 安装包下载到本地再上传
+```
+wget https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.1.3.post1/causal_conv1d-1.1.3.post1+cu118torch2.1cxx11abiFALSE-cp310-cp310-linux_x86_64.whl
+wget https://github.com/state-spaces/mamba/releases/download/v1.1.1/mamba_ssm-1.1.1+cu118torch2.1cxx11abiFALSE-cp310-cp310-linux_x86_64.whl
+pip install causal_conv1d-1.1.3.post1+cu118torch2.1cxx11abiFALSE-cp310-cp310-linux_x86_64.whl 
+pip install mamba_ssm-1.1.1+cu118torch2.1cxx11abiFALSE-cp310-cp310-linux_x86_64.whl
 ```
 
 ### 先安装causal_sonvld-1.1.3
